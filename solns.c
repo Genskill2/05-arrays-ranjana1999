@@ -24,3 +24,12 @@ int min(int arr[],int n){
     }
     return(small);
 }
+float average(int arr[],int n){
+    float sum=0,avg=0;
+    for(int i=0;i<n;i++){
+	sum=sum+arr[i];
+       }
+    avg=sum/n;
+   
+    return(avg);
+}
