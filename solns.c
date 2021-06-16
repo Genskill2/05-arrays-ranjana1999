@@ -12,3 +12,15 @@ int max(int arr[],int n){
     }
     return(large);
 }
+int min(int arr[],int n){
+    int small=arr[0];
+    for(int i=0;i<n;i++){
+        if(arr[i]<=small){
+            small=arr[i];
+        }
+        else{
+            continue;
+        }
+    }
+    return(small);
+}
