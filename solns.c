@@ -34,7 +34,7 @@ float average(int arr[],int n){
     return(avg);
 }
 int mode(int arr[], int n){
-	int i, j,b[100] = [0], k = 0,  max = 0, mode;
+	int i, j,b[100] = [], k = 0,  max = 0, mode;
     	for (i = 0; i < n - 1; i++)
     	{
         	mode = 0;
