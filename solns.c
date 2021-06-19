@@ -33,31 +33,5 @@ float average(int arr[],int n){
    
     return(avg);
 }
-int mode(int arr[], int n){
-	int i, j,b[100] = {0}, k = 0, c = 1, max = 0, mode;
-    	for (i = 0; i < n - 1; i++)
-    	{
-        	mode = 0;
-        	for (j = i + 1; j < n; j++)
-        	{
-            		if (a[i] == a[j]) {
-                		mode++;
-            		}
-        	}
-        	if ((mode > max) && (mode != 0)) {
-            		k = 0;
-            		max = mode;
-            		b[k] = a[i];
-            		k++;
-        	}
-       		else if (mode == max) {
-           		b[k] = a[i];
-            		k++;
-        	}
-    	}
-	for (i = 0; i < k; i++){
-		return (b[i]);
-	
-	}
-}
+
 
